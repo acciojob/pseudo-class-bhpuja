@@ -1,27 +1,20 @@
-/* Style for the container element */
 #container {
   margin: 20px;
-  font-size: 16px; /* Optional: Set base font size for container */
-  position: relative; /* Ensures pseudo-elements align correctly */
-  padding: 10px;
-  border: 1px solid #ccc; /* Optional: Adds a border for better visibility */
 }
 
-/* Pseudo-element before the container */
 #container::before {
   content: "Special Text Before";
-  color: #f00; /* Red color for text */
-  font-size: 20px; /* Font size of inserted content */
-  display: block; /* Ensures it appears on a separate line */
-  margin-bottom: 5px; /* Adds spacing from the main content */
+  color: #f00;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
 }
 
-/* Pseudo-element after the container */
 #container::after {
   content: "Special Text After";
-  color: #f00; /* Red color for text */
-  font-size: 20px; /* Font size of inserted content */
-  display: block; /* Ensures it appears on a separate line */
-  margin-top: 5px; /* Adds spacing from the main content */
+  color: #f00;
+  font-size: 20px;
+  display: block;
+  margin-top: 5px;
 }
 
